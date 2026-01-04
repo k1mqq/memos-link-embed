@@ -1,6 +1,8 @@
 # memos-link-embed
 A custom script for Memos that adds a button to fetch URL metadata and insert it as Markdown text.
 
+It's not actually "embed". It fetches metadata from a URL and inserts it as Markdown text at post time.
+
 
 https://github.com/user-attachments/assets/24cc9458-380d-4809-be51-9391df64b222
 

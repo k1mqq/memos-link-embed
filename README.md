@@ -9,6 +9,8 @@ https://github.com/user-attachments/assets/2ca0babb-18ec-4bd9-a39f-18e635e1250b
 
 > [!NOTE]
 > This script uses microlink.io to fetch metadata and it has usage limit(50req/day).
+>
+> I want to replace it with a self-hosted tool. If you know of any good ones, please let me know.
 
 ## Usage
 Copy and paste [this script](https://github.com/k1mqq/memos-link-embed/blob/main/script.js) into Memos "Additional Script" settings.

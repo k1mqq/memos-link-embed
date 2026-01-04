@@ -17,8 +17,8 @@
 
     const btn = document.createElement("button");
     btn.id = BUTTON_ID;
-    btn.textContent = "Link";
-    btn.className = "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 border bg-background hover:bg-accent hover:text-accent-foreground shadow-none h-8 px-3";
+    btn.textContent = "🔗";
+    btn.className = "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 border bg-background hover:bg-accent hover:text-accent-foreground shadow-none h-8 px-2";
 
     btn.onclick = async () => {
       try {
@@ -42,7 +42,7 @@
          console.error(e); 
         }
 
-        let text = title ? `[${title}](${url})` : `🔗 ${url}`;
+        let text = title ? `[${title}](${url})` : `${url}`;
         if (description) text += `\n> ${description}`;
 
         textarea.value += text;
